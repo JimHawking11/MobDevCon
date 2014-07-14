@@ -1,0 +1,8 @@
+platform :ios, "7.0"
+
+pod "Mantle"
+pod "AFNetworking"
+
+target :MobDevConTests, :exclusive => true do
+  # pod 'Kiwi'
+end
