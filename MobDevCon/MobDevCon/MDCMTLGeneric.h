@@ -7,7 +7,8 @@
 //
 
 #import "MTLModel.h"
+#import <Mantle/Mantle.h>
 
-@interface MDCMTLGeneric : MTLModel
+@interface MDCMTLGeneric : MTLModel <MTLJSONSerializing>
 
 @end

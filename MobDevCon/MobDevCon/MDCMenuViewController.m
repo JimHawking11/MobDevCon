@@ -14,11 +14,11 @@
 @interface MDCMenuViewController ()
 
 @property (nonatomic, strong) UIImageView *backgroundImageView;
-@property (nonatomic, strong) IBOutlet UITextField *cityField;
 
 @end
 
 @implementation MDCMenuViewController
+
 
 - (void)viewDidLoad
 {

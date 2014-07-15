@@ -12,16 +12,9 @@
 #import "MDCAppDelegate.h"
 #import "MTLJSONAdapter.h"
 
-static NSString * const BaseURLString = @"http://api.openweathermap.org/data/2.5/";
-
-@interface MDCMainViewController ()
-
-@property (nonatomic, strong) CLLocationManager *locationManager;
-
-@end
+static NSString * const BaseURLString = @"BASE URL";
 
 @implementation MDCMainViewController
-
 
 - (void)viewDidLoad
 {
